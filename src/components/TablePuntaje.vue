@@ -6,59 +6,59 @@ const $q = useQuasar()
 
 const pointsStore = usePointsStore();
 const messages = ref([
-      "Yo soy el arquitecto de mi destino. Puedo lograr lo que he soñado por mí mismo.",
-      "No le tengo miedo a los fracasos. Aprendo de mis errores y convierto los fracasos en resultados favorables.",
-      "Yo soy capaz de atraer abundancia diaria.",
-      "Estoy agradecido de tener abundancia ilimitada en mi vida.",
-      "Yo soy un imán para el dinero.",
-      "Tengo derecho a la libertad financiera y a una vida sin preocupaciones.",
-      "Yo celebro la abundancia de todo en mi vida.",
-      "Estoy decidido a ser feliz para siempre.",
-      "Yo soy lo suficientemente abundante para cumplir todos mis deseos.",
-      "Estoy contento conmigo y no necesito demostrarlo.",
-      "Yo soy suficiente, yo soy fuerte.",
-      "Tengo la suerte de ser feliz.",
-      "Yo confío en mis habilidades.",
-      "Me encanta estar rodeada de gente alegre.",
-      "Yo tengo el poder de superar obstáculos.",
-      "Estoy decidido a estar más saludable día a día.",
-      "Yo soy única y brillante.",
-      "Estoy feliz y satisfecho con mi presente.",
-      "Yo soy más fuerte de lo que parezco.",
-      "Sé que se necesita tiempo para cambiar las cosas y curarte.",
-      "Yo sé que puedo hacer maravillas.",
-      "Estoy bien con mis imperfecciones.",
-      "Yo soy la mejor versión de mí mismo.",
-      "Estoy conectado conmigo mismo en niveles más profundos para lograr todo lo que deseo.",
-      "Yo soy encantador.",
-      "Mis acciones me acercan a mi mayor propósito.",
-      "Yo soy persistente en perseguir mis sueños.",
-      "Estoy trabajando en la dirección correcta.",
-      "Yo soy todo oídos para mis ángeles guardianes para guiarme hacia mi propósito.",
-      "Creo en mis ideas.",
-      "Yo soy un cazador de sueños.",
-      "Mantengo un peso ideal para llevar una vida sana.",
-      "Cuido mi cuerpo.",
-      "Yo soy vibrante en mi mente y espíritu.",
-      "Todo está sucediendo para mi mayor bien.",
-      "Yo soy el responsable de mi crecimiento espiritual.",
-      "Yo soy grandioso y todos mis planes son grandiosos para mí.",
-      "Yo soy un alquimista.",
-      "Estoy obteniendo todo lo que quise tener.",
-      "Yo soy una fuerza para el bien en el mundo.",
-      "Yo soy una expresión divina",
-      "Me dedico a descubrir las gemas que ya están aquí.",
-      "Yo soy suficiente y tengo todo lo que necesito para llegar a donde quiero estar.",
-      "Estoy en el camino correcto. Me estoy moviendo en la dirección correcta.",
-      "Yo soy digno de todas las cosas maravillosas.",
-      "Estoy en el lugar exacto en el que necesito estar para llegar a donde quiero estar.",
-      "Yo creo firmemente en mis ideas.",
-      "Estoy aprendiendo a dejar ir al miedo.",
-      "Elijo la buena salud por encima de todo.",
-      "Yo soy ilimitado.",
-      "Estoy aprendiendo a respetar el proceso, aun cuando no lo entiendo.",
-      "Yo soy amor incondicional.",
-    ]);
+  "Yo soy el arquitecto de mi destino. Puedo lograr lo que he soñado por mí mismo.",
+  "No le tengo miedo a los fracasos. Aprendo de mis errores y convierto los fracasos en resultados favorables.",
+  "Yo soy capaz de atraer abundancia diaria.",
+  "Estoy agradecido de tener abundancia ilimitada en mi vida.",
+  "Yo soy un imán para el dinero.",
+  "Tengo derecho a la libertad financiera y a una vida sin preocupaciones.",
+  "Yo celebro la abundancia de todo en mi vida.",
+  "Estoy decidido a ser feliz para siempre.",
+  "Yo soy lo suficientemente abundante para cumplir todos mis deseos.",
+  "Estoy contento conmigo y no necesito demostrarlo.",
+  "Yo soy suficiente, yo soy fuerte.",
+  "Tengo la suerte de ser feliz.",
+  "Yo confío en mis habilidades.",
+  "Me encanta estar rodeada de gente alegre.",
+  "Yo tengo el poder de superar obstáculos.",
+  "Estoy decidido a estar más saludable día a día.",
+  "Yo soy única y brillante.",
+  "Estoy feliz y satisfecho con mi presente.",
+  "Yo soy más fuerte de lo que parezco.",
+  "Sé que se necesita tiempo para cambiar las cosas y curarte.",
+  "Yo sé que puedo hacer maravillas.",
+  "Estoy bien con mis imperfecciones.",
+  "Yo soy la mejor versión de mí mismo.",
+  "Estoy conectado conmigo mismo en niveles más profundos para lograr todo lo que deseo.",
+  "Yo soy encantador.",
+  "Mis acciones me acercan a mi mayor propósito.",
+  "Yo soy persistente en perseguir mis sueños.",
+  "Estoy trabajando en la dirección correcta.",
+  "Yo soy todo oídos para mis ángeles guardianes para guiarme hacia mi propósito.",
+  "Creo en mis ideas.",
+  "Yo soy un cazador de sueños.",
+  "Mantengo un peso ideal para llevar una vida sana.",
+  "Cuido mi cuerpo.",
+  "Yo soy vibrante en mi mente y espíritu.",
+  "Todo está sucediendo para mi mayor bien.",
+  "Yo soy el responsable de mi crecimiento espiritual.",
+  "Yo soy grandioso y todos mis planes son grandiosos para mí.",
+  "Yo soy un alquimista.",
+  "Estoy obteniendo todo lo que quise tener.",
+  "Yo soy una fuerza para el bien en el mundo.",
+  "Yo soy una expresión divina",
+  "Me dedico a descubrir las gemas que ya están aquí.",
+  "Yo soy suficiente y tengo todo lo que necesito para llegar a donde quiero estar.",
+  "Estoy en el camino correcto. Me estoy moviendo en la dirección correcta.",
+  "Yo soy digno de todas las cosas maravillosas.",
+  "Estoy en el lugar exacto en el que necesito estar para llegar a donde quiero estar.",
+  "Yo creo firmemente en mis ideas.",
+  "Estoy aprendiendo a dejar ir al miedo.",
+  "Elijo la buena salud por encima de todo.",
+  "Yo soy ilimitado.",
+  "Estoy aprendiendo a respetar el proceso, aun cuando no lo entiendo.",
+  "Yo soy amor incondicional.",
+]);
 const valor = ref("")
 $q.fullscreen.request()
 //pointsStore.getTodos()
@@ -66,7 +66,7 @@ onMounted(() => {
   setInterval(() => {
     pointsStore.getTodos();
     random();
-      }, 120000);
+  }, 120000);
 })
 const random = () => {
   valor.value = messages.value[Math.floor(Math.random() * messages.value.length)];
@@ -84,9 +84,10 @@ pointsStore.getTodos();
   <div class="row" style="background-image: url('src/assets/fondo2.jpeg')">
     <div class="col-3 flex flex-center">
       <div class="text-center text-h4 "> </div>
-      <p class="message q-ma-lg text-white text-bold q-pa-md text-h5 text-center" style="background-color:green; filter:alpha(opacity=60); opacity:.6;">{{ valor }}</p>
+      <p class="message q-ma-lg text-white text-bold q-pa-md text-h5 text-center"
+        style="background-color:green; filter:alpha(opacity=60); opacity:.6;">{{ valor }}</p>
     </div>
-    <q-markup-table dense separator="cell" class="col-9" >
+    <q-markup-table dense separator="cell" class="col-9">
       <thead>
         <tr>
           <th class="text-left" style="font-size: 15px; font-weight: bold;">Nombre</th>
@@ -121,7 +122,7 @@ pointsStore.getTodos();
             pointsStore.derinE[0].actitud : "" }} </td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.derinE.length > 0 ?
             pointsStore.derinE[0].creatividad : "" }} </td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.derinE.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.derinE.length > 0 ?
             pointsStore.derinE[0].compromiso : "" }} </td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.derinE.length > 0 ? pointsStore.derinE[0].sum
             :
@@ -145,7 +146,7 @@ pointsStore.getTodos();
             pointsStore.marleneG[0].actitud : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.marleneG.length > 0 ?
             pointsStore.marleneG[0].creatividad : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.marleneG.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.marleneG.length > 0 ?
             pointsStore.marleneG[0].compromiso : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.marleneG.length > 0 ? pointsStore.marleneG[0].sum
             :
@@ -174,33 +175,42 @@ pointsStore.getTodos();
             "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.marieL.length > 0 ?
             pointsStore.marieL[0].creatividad : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.marieL.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.marieL.length > 0 ?
             pointsStore.marieL[0].compromiso : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.marieL.length > 0 ? pointsStore.marieL[0].sum :
             ""
           }}</td>
         </tr>
         <tr>
-          <td class="text-left" style="font-size: 15px; font-weight: bold;">Ana Maria Noza</td>
-          <td class="text-right" style="font-size: 15px;">{{ pointsStore.anaN.length > 0 ? pointsStore.anaN[0].higiene :
+          <td class="text-left" style="font-size: 15px; font-weight: bold;">Billy Mendieta Cabrera</td>
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.billyM.length > 0 ? pointsStore.billyM[0].higiene
+            :
             "" }}</td>
-          <td class="text-right" style="font-size: 15px;">{{ pointsStore.anaN.length > 0 ? pointsStore.anaN[0].uniforme :
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.billyM.length > 0 ?
+            pointsStore.billyM[0].uniforme :
             "" }}</td>
-          <td class="text-right" style="font-size: 15px;">{{ pointsStore.anaN.length > 0 ? pointsStore.anaN[0].autonomia :
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.billyM.length > 0 ?
+            pointsStore.billyM[0].autonomia :
             "" }}</td>
-          <td class="text-right" style="font-size: 15px;">{{ pointsStore.anaN.length > 0 ? pointsStore.anaN[0].puntualidad
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.billyM.length > 0 ?
+            pointsStore.billyM[0].puntualidad
             : "" }}</td>
-          <td class="text-right" style="font-size: 15px;">{{ pointsStore.anaN.length > 0 ?
-            pointsStore.anaN[0].companerismo : "" }}</td>
-          <td class="text-right" style="font-size: 15px;">{{ pointsStore.anaN.length > 0 ? pointsStore.anaN[0].agilidad :
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.billyM.length > 0 ?
+            pointsStore.billyM[0].companerismo : "" }}</td>
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.billyM.length > 0 ?
+            pointsStore.billyM[0].agilidad :
             "" }}</td>
-          <td class="text-right" style="font-size: 15px;">{{ pointsStore.anaN.length > 0 ? pointsStore.anaN[0].actitud :
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.billyM.length > 0 ? pointsStore.billyM[0].actitud
+            :
             "" }}</td>
-          <td class="text-right" style="font-size: 15px;">{{ pointsStore.anaN.length > 0 ? pointsStore.anaN[0].creatividad
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.billyM.length > 0 ?
+            pointsStore.billyM[0].creatividad
             : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.anaN.length > 0 ? pointsStore.anaN[0].compromiso
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.billyM.length > 0 ?
+            pointsStore.billyM[0].compromiso
             : "" }}</td>
-          <td class="text-right" style="font-size: 15px;">{{ pointsStore.anaN.length > 0 ? pointsStore.anaN[0].sum : "" }}
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.billyM.length > 0 ? pointsStore.billyM[0].sum :
+            "" }}
 
           </td>
         </tr>
@@ -224,7 +234,7 @@ pointsStore.getTodos();
             "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.jhonP.length > 0 ?
             pointsStore.jhonP[0].creatividad : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.jhonP.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.jhonP.length > 0 ?
             pointsStore.jhonP[0].compromiso : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.jhonP.length > 0 ? pointsStore.jhonP[0].sum : ""
           }}
@@ -253,7 +263,7 @@ pointsStore.getTodos();
             "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.eliasR.length > 0 ?
             pointsStore.eliasR[0].creatividad : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.eliasR.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.eliasR.length > 0 ?
             pointsStore.eliasR[0].compromiso : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.eliasR.length > 0 ? pointsStore.eliasR[0].sum :
             "" }}</td>
@@ -281,7 +291,7 @@ pointsStore.getTodos();
             "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.taniaY.length > 0 ?
             pointsStore.taniaY[0].creatividad : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.taniaY.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.taniaY.length > 0 ?
             pointsStore.taniaY[0].compromiso : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.taniaY.length > 0 ? pointsStore.taniaY[0].sum :
             "" }}</td>
@@ -308,7 +318,7 @@ pointsStore.getTodos();
             : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.adrianaZ.length > 0 ?
             pointsStore.adrianaZ[0].creatividad : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.adrianaZ.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.adrianaZ.length > 0 ?
             pointsStore.adrianaZ[0].compromiso : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.adrianaZ.length > 0 ? pointsStore.adrianaZ[0].sum
             :
@@ -338,7 +348,7 @@ pointsStore.getTodos();
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.marcoV.length > 0 ?
             pointsStore.marcoV[0].creatividad
             : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.marcoV.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.marcoV.length > 0 ?
             pointsStore.marcoV[0].compromiso
             : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.marcoV.length > 0 ? pointsStore.marcoV[0].sum :
@@ -370,7 +380,7 @@ pointsStore.getTodos();
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.bimarG.length > 0 ?
             pointsStore.bimarG[0].creatividad
             : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.bimarG.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.bimarG.length > 0 ?
             pointsStore.bimarG[0].compromiso
             : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.bimarG.length > 0 ? pointsStore.bimarG[0].sum :
@@ -400,7 +410,7 @@ pointsStore.getTodos();
             : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.ricardoV.length > 0 ?
             pointsStore.ricardoV[0].creatividad : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.ricardoV.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.ricardoV.length > 0 ?
             pointsStore.ricardoV[0].compromiso : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.ricardoV.length > 0 ? pointsStore.ricardoV[0].sum
             : "" }}</td>
@@ -428,7 +438,7 @@ pointsStore.getTodos();
             : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.tatianaV.length > 0 ?
             pointsStore.tatianaV[0].creatividad : "" }}</td>
-            <td class="text-right" style="font-size: 15px;">{{ pointsStore.tatianaV.length > 0 ?
+          <td class="text-right" style="font-size: 15px;">{{ pointsStore.tatianaV.length > 0 ?
             pointsStore.tatianaV[0].compromiso : "" }}</td>
           <td class="text-right" style="font-size: 15px;">{{ pointsStore.tatianaV.length > 0 ? pointsStore.tatianaV[0].sum
             :
@@ -583,48 +593,7 @@ pointsStore.getTodos();
             {{ pointsStore.joseM.length > 0 ? pointsStore.joseM[0].sum : "" }}
           </td>
         </tr>
-        <tr>
-          <td class="text-left" style="font-size: 15px; font-weight: bold">
-            Daniela Torrico
-          </td>
-          <td class="text-right" style="font-size: 15px">
-            {{ pointsStore.danielaT.length > 0 ? pointsStore.danielaT[0].higiene : "" }}
-          </td>
-          <td class="text-right" style="font-size: 15px">
-            {{ pointsStore.danielaT.length > 0 ? pointsStore.danielaT[0].uniforme : ""
-            }}
-          </td>
-          <td class="text-right" style="font-size: 15px">
-            {{ pointsStore.danielaT.length > 0 ? pointsStore.danielaT[0].autonomia : ""
-            }}
-          </td>
-          <td class="text-right" style="font-size: 15px">
-            {{ pointsStore.danielaT.length > 0 ? pointsStore.danielaT[0].puntualidad :
-              "" }}
-          </td>
-          <td class="text-right" style="font-size: 15px">
-            {{ pointsStore.danielaT.length > 0 ? pointsStore.danielaT[0].companerismo :
-              "" }}
-          </td>
-          <td class="text-right" style="font-size: 15px">
-            {{ pointsStore.danielaT.length > 0 ? pointsStore.danielaT[0].agilidad : ""
-            }}
-          </td>
-          <td class="text-right" style="font-size: 15px">
-            {{ pointsStore.danielaT.length > 0 ? pointsStore.danielaT[0].actitud : "" }}
-          </td>
-          <td class="text-right" style="font-size: 15px">
-            {{ pointsStore.danielaT.length > 0 ? pointsStore.danielaT[0].creatividad :
-              "" }}
-          </td>
-          <td class="text-right" style="font-size: 15px">
-            {{ pointsStore.danielaT.length > 0 ? pointsStore.danielaT[0].compromiso :
-              "" }}
-          </td>
-          <td class="text-right" style="font-size: 15px">
-            {{ pointsStore.danielaT.length > 0 ? pointsStore.danielaT[0].sum : "" }}
-          </td>
-        </tr>
+
         <tr>
           <td class="text-left" style="font-size: 15px; font-weight: bold">
             Mario Berty Vaca
@@ -813,6 +782,4 @@ pointsStore.getTodos();
 
 
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -6,7 +6,7 @@ export const usePointsStore = defineStore('points', {
     derinE: [],
     marleneG: [],
     marieL: [],
-    anaN: [],
+    billyM: [],
     jhonP: [],
     eliasR: [],
     taniaY: [],
@@ -31,11 +31,11 @@ export const usePointsStore = defineStore('points', {
   },
   actions: {
     async getTodos() {
-      const todos = await axios.get('http://192.168.0.250:3001/api/product/points')
+      const todos = await axios.get('http://localhost:3001/api/product/points')
       this.derinE = todos.data.filter((todo) => todo.name === 'derinE')
       this.marleneG = todos.data.filter((todo) => todo.name === 'marleneG')
       this.marieL = todos.data.filter((todo) => todo.name === 'marieL')
-      this.anaN = todos.data.filter((todo) => todo.name === 'anaN')
+      this.billyM = todos.data.filter((todo) => todo.name === 'billyM')
       this.jhonP = todos.data.filter((todo) => todo.name === 'jhonP')
       this.eliasR = todos.data.filter((todo) => todo.name === 'eliasR')
       this.taniaY = todos.data.filter((todo) => todo.name === 'taniaY')
@@ -57,113 +57,113 @@ export const usePointsStore = defineStore('points', {
     },
     async setderinE(points) {
       console.log(points)
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       //console.log(name.data)
       //this.derinE = points;
     },
     async setmarleneG(points) {
       //console.log(points)
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.marleneG = points;
     },
     async setmarieL(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.marieL = points;
     },
-    async setanaN(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+    async setbillyM(points) {
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
-      //this.anaN = points;
+      //this.billyM = points;
     },
     async setjhonP(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.jhonP = points;
     },
     async seteliasR(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.eliasR = points;
     },
     async settaniaY(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.taniaY = points;
     },
     async setadrianaZ(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.adrianaZ = points;
     },
     async setmarcoV(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.marcoV = points;
     },
     async setbimarG(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.bimarG = points;
     },
     async setricardoV(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.ricardoV = points;
     },
     async settatianaV(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.tatianaV = points;
     },
     async setjorgeR(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.jorgeR = points;
     },
     async setmarceloV(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.marceloV = points;
     },
     async setjoseV(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.joseV = points;
     },
     async setjoseM(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.joseM = points;
     },
     async setdanielaT(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.danielaT = points;
     },
     async setmarioB(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.marioB = points;
     },
     async setkevinR(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.kevinR = points;
     },
     async setnelsonC(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.nelsonC = points;
     },
     async setwaraV(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.waraV = points;
     },
     async setluisR(points) {
-      const name = await axios.post('http://192.168.0.250:3001/api/product/points', points)
+      const name = await axios.post('http://localhost:3001/api/product/points', points)
       console.log(name.data)
       //this.luisR = points;
     },
