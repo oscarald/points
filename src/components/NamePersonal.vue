@@ -1,10 +1,131 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { usePointsStore } from "src/stores/points-store";
 import { useQuasar } from 'quasar'
 const $q = useQuasar()
 
+
 const pointsStore = usePointsStore();
+onMounted(async () => {
+  pointsStore.getTodos()
+  //console.log(pointsStore.derinE[0])
+})
+watch(() => pointsStore.derinE, (val) => {
+  if (val.length > 0) {
+    derinE.value = val[0]
+  }
+})
+watch(() => pointsStore.marleneG, (val) => {
+  if (val.length > 0) {
+    marleneG.value = val[0]
+  }
+})
+watch(() => pointsStore.marieL, (val) => {
+  if (val.length > 0) {
+    marieL.value = val[0]
+  }
+})
+watch(() => pointsStore.jhonP, (val) => {
+  if (val.length > 0) {
+    jhonP.value = val[0]
+  }
+})
+watch(() => pointsStore.eliasR, (val) => {
+  if (val.length > 0) {
+    eliasR.value = val[0]
+  }
+})
+watch(() => pointsStore.taniaY, (val) => {
+  if (val.length > 0) {
+    taniaY.value = val[0]
+  }
+})
+watch(() => pointsStore.adrianaZ, (val) => {
+  if (val.length > 0) {
+    adrianaZ.value = val[0]
+  }
+})
+watch(() => pointsStore.marcoV, (val) => {
+  if (val.length > 0) {
+    marcoV.value = val[0]
+  }
+})
+watch(() => pointsStore.bimarG, (val) => {
+  if (val.length > 0) {
+    bimarG.value = val[0]
+  }
+})
+watch(() => pointsStore.ricardoV, (val) => {
+  if (val.length > 0) {
+    ricardoV.value = val[0]
+  }
+})
+watch(() => pointsStore.tatianaV, (val) => {
+  if (val.length > 0) {
+    tatianaV.value = val[0]
+  }
+})
+watch(() => pointsStore.jorgeR, (val) => {
+  if (val.length > 0) {
+    jorgeR.value = val[0]
+  }
+})
+watch(() => pointsStore.marceloV, (val) => {
+  if (val.length > 0) {
+    marceloV.value = val[0]
+  }
+})
+watch(() => pointsStore.joseV, (val) => {
+  if (val.length > 0) {
+    joseV.value = val[0]
+  }
+})
+watch(() => pointsStore.joseM, (val) => {
+  if (val.length > 0) {
+    joseM.value = val[0]
+  }
+})
+watch(() => pointsStore.danielaT, (val) => {
+  if (val.length > 0) {
+    danielaT.value = val[0]
+  }
+})
+watch(() => pointsStore.marioB, (val) => {
+  if (val.length > 0) {
+    marioB.value = val[0]
+  }
+})
+watch(() => pointsStore.kevinR, (val) => {
+  if (val.length > 0) {
+    kevinR.value = val[0]
+  }
+})
+watch(() => pointsStore.nelsonC, (val) => {
+  if (val.length > 0) {
+    nelsonC.value = val[0]
+  }
+})
+watch(() => pointsStore.waraV, (val) => {
+  if (val.length > 0) {
+    waraV.value = val[0]
+  }
+})
+watch(() => pointsStore.luisR, (val) => {
+  if (val.length > 0) {
+    luisR.value = val[0]
+  }
+})
+watch(() => pointsStore.billyM, (val) => {
+  if (val.length > 0) {
+    billyM.value = val[0]
+  }
+})
+watch(() => pointsStore.anaN, (val) => {
+  if (val.length > 0) {
+    anaN.value = val[0]
+  }
+})
+
 
 const tab = ref('Derin Edgar Choque Ortega')
 const derinE = ref({})
